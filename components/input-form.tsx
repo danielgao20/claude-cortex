@@ -47,6 +47,9 @@ export function InputForm({
                 } inline-block h-3 w-3 transform rounded-full bg-white transition-transform`}
               />
             </Switch>
+            {isSecureMode && (
+              <span className="ml-2 px-2 py-0.5 rounded bg-[#F2E9E1] text-[#6B5A55] text-xs font-normal border border-[#E8E1D8]">AWS Bedrock enabled</span>
+            )}
           </div>
           <button
             type="submit"

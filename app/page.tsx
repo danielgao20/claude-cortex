@@ -34,7 +34,7 @@ export default function Home() {
           {/* Header with sunburst icon */}
           <div className="flex items-center mb-8">
             <SunburstIcon className="text-[#D97A4D] mr-3" />
-            <h1 className="text-3xl text-[#2D2D2D] font-normal">Welcome, username</h1>
+            <h1 className="text-3xl text-[#2D2D2D] font-normal">Welcome, Daniel</h1>
           </div>
 
           {!results && (
